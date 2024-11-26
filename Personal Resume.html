@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid brown;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: blanchedalmond; /* Green background for header */
+            color: white; /* White text color for header */
+        }
+        tr:nth-child(even) {
+            background-color:aqua; /* Light gray background for even rows */
+        }
+        tr:hover {
+            background-color: wheat; /* Darker gray on hover */
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <thead>
+        <tr>
+            <th>Country</th>
+            <th>City</th>
+            <th>Country Code</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Afghanistan</td>
+            <td>Kabul</td>
+            <td>0093</td>
+        </tr>
+        <tr>
+            <td>USA</td>
+            <td>New York</td>
+            <td>001</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
